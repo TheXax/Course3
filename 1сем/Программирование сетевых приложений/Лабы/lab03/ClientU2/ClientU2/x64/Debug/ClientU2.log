@@ -1,0 +1,33 @@
+﻿Сборка начата 23.10.2024 11:45:02.
+Уровень детализации журнала: Normal.     1>Проект "C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\ClientU2\ClientU2.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\ClientU2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\ClientU2.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4996 /FC /errorReport:prompt ClientU2.cpp
+         ClientU2.cpp
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\charconv(13): warning STL4038: The contents of <charconv> are available only with C++17 or later.
+     1>C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\ClientU2\ClientU2.cpp(57,57): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\ClientU2\ClientU2.cpp(28,10): warning C4101: serverSocket: неиспользованная локальная переменная
+     1>C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\ClientU2\ClientU2.cpp(116): warning C4715: getID: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\x64\Debug\ClientU2.exe" /INCREMENTAL /ILK:"x64\Debug\ClientU2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\x64\Debug\ClientU2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\x64\Debug\ClientU2.lib" /MACHINE:X64 x64\Debug\ClientU2.obj
+         ClientU2.vcxproj -> C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\x64\Debug\ClientU2.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\ClientU2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\ClientU2.tlog\ClientU2.lastbuildstate".
+     1>Сборка проекта "C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\ClientU2\ClientU2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\ClientU2\ClientU2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\charconv(13): warning STL4038: The contents of <charconv> are available only with C++17 or later.
+         C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\ClientU2\ClientU2.cpp(57,57): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\ClientU2\ClientU2.cpp(28,10): warning C4101: serverSocket: неиспользованная локальная переменная
+         C:\Лабы\Программирование сетевых приложений\Лабы\lab03\ClientU2\ClientU2\ClientU2.cpp(116): warning C4715: getID: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:02.62

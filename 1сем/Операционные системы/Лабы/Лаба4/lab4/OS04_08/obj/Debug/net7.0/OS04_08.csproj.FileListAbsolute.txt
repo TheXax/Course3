@@ -1,0 +1,14 @@
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\bin\Debug\net7.0\OS04_08.exe
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\bin\Debug\net7.0\OS04_08.deps.json
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\bin\Debug\net7.0\OS04_08.runtimeconfig.json
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\bin\Debug\net7.0\OS04_08.dll
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\bin\Debug\net7.0\OS04_08.pdb
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\obj\Debug\net7.0\OS04_08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\obj\Debug\net7.0\OS04_08.AssemblyInfoInputs.cache
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\obj\Debug\net7.0\OS04_08.AssemblyInfo.cs
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\obj\Debug\net7.0\OS04_08.csproj.CoreCompileInputs.cache
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\obj\Debug\net7.0\OS04_08.dll
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\obj\Debug\net7.0\refint\OS04_08.dll
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\obj\Debug\net7.0\OS04_08.pdb
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\obj\Debug\net7.0\OS04_08.genruntimeconfig.cache
+C:\Лабы\Операционные системы\Лабы\Лаба4\lab4\OS04_08\obj\Debug\net7.0\ref\OS04_08.dll

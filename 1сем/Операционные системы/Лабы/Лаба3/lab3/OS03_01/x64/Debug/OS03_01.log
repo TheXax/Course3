@@ -1,0 +1,19 @@
+﻿Сборка начата 06.10.2024 16:59:04.
+Уровень детализации журнала: Normal.     1>Проект "C:\Лабы\Операционные системы\Лабы\Лаба3\lab3\OS03_01\OS03_01.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\OS03_01.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Лабы\Операционные системы\Лабы\Лаба3\lab3\x64\Debug\OS03_01.exe" /INCREMENTAL /ILK:"x64\Debug\OS03_01.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Лабы\Операционные системы\Лабы\Лаба3\lab3\x64\Debug\OS03_01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Лабы\Операционные системы\Лабы\Лаба3\lab3\x64\Debug\OS03_01.lib" /MACHINE:X64 x64\Debug\OS03_01.obj
+         OS03_01.vcxproj -> C:\Лабы\Операционные системы\Лабы\Лаба3\lab3\x64\Debug\OS03_01.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\OS03_01.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\OS03_01.tlog\OS03_01.lastbuildstate".
+     1>Сборка проекта "C:\Лабы\Операционные системы\Лабы\Лаба3\lab3\OS03_01\OS03_01.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.63

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket Приложение</title>
+</head>
+<body>
+    <h1>WebSocket</h1>
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+    <div id="messages"></div>
+
+    <script>
+        let socket; //для хранения экземпляра сокета
+        const startBtn = document.getElementById('startBtn');
+        const stopBtn = document.getElementById('stopBtn');
+        const messagesDiv = document.getElementById('messages');
+
+        startBtn.addEventListener('click', () => { //обработчик соытия на нажатие
+            if (!socket || socket.readyState === WebSocket.CLOSED) {
+                socket = new WebSocket(`ws://${window.location.host}/ws`);
+
+                socket.onopen = () => { //если соединение успешно установлено
+                    console.log('Соединение установлено');
+                    socket.send('start');
+                };
+
+                socket.onmessage = (event) => { //при получении смс от сервера
+                    const msg = document.createElement('p');
+                    msg.textContent = `Message from server: ${event.data}`;
+                    messagesDiv.appendChild(msg); //добавляет р в div
+                };
+
+                socket.onclose = () => { //когда соединение закрывается
+                    console.log('Соединение закрыто');
+                };
+
+                socket.onerror = (error) => {
+                    console.error('Ошибка WebSocket:', error);
+                };
+            }
+        });
+
+        stopBtn.addEventListener('click', () => {
+            if (socket && socket.readyState === WebSocket.OPEN) {
+                socket.send('stop');
+                socket.close();
+            }
+        });
+    </script>
+</body>
+</html>

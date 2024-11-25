@@ -1,0 +1,10 @@
+C:\Лабы\СТРWП\Лабы\Лаба1\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Лабы\СТРWП\Лабы\Лаба1\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Лабы\СТРWП\Лабы\Лаба1\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Лабы\СТРWП\Лабы\Лаба1\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Лабы\СТРWП\Лабы\Лаба1\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Лабы\СТРWП\Лабы\Лаба1\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Лабы\СТРWП\Лабы\Лаба1\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Лабы\СТРWП\Лабы\Лаба1\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Лабы\СТРWП\Лабы\Лаба1\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Лабы\СТРWП\Лабы\Лаба1\Calculator\Calculator\obj\Debug\Calculator.pdb

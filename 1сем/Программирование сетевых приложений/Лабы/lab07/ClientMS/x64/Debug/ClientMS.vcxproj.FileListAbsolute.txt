@@ -1,0 +1,3 @@
+D:\Study\ПиБСП\Lab_7MS\ClientMS\x64\Debug\ClientMS.exe
+C:\Users\samke\OneDrive\Рабочий стол\Лабы\Программирование сетевых приложений\lab07\ClientMS\x64\Debug\ClientMS.exe
+C:\Лабы\Программирование сетевых приложений\Лабы\lab07\ClientMS\x64\Debug\ClientMS.exe

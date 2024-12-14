@@ -1,0 +1,14 @@
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\bin\Debug\net6.0\OS05_02.exe
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\bin\Debug\net6.0\OS05_02.deps.json
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\bin\Debug\net6.0\OS05_02.runtimeconfig.json
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\bin\Debug\net6.0\OS05_02.dll
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\bin\Debug\net6.0\OS05_02.pdb
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\obj\Debug\net6.0\OS05_02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\obj\Debug\net6.0\OS05_02.AssemblyInfoInputs.cache
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\obj\Debug\net6.0\OS05_02.AssemblyInfo.cs
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\obj\Debug\net6.0\OS05_02.csproj.CoreCompileInputs.cache
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\obj\Debug\net6.0\OS05_02.dll
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\obj\Debug\net6.0\refint\OS05_02.dll
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\obj\Debug\net6.0\OS05_02.pdb
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\obj\Debug\net6.0\OS05_02.genruntimeconfig.cache
+C:\Лабы\Операционные системы\Лабы\Лаба5\lab5\OS05_02\obj\Debug\net6.0\ref\OS05_02.dll

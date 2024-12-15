@@ -1,0 +1,4 @@
+<!DOCTYPE connections>
+<qgsMssqlConnections version="1.0">
+    <mssql service="" host="DESKTOP-4NCHOSL" port="" name="qgis" savePassword="false" database="qgis" sslmode="1" estimatedMetadata="true" saveUsername="false"/>
+</qgsMssqlConnections>

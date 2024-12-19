@@ -1,0 +1,24 @@
+@hostname=localhost
+@port=7147
+
+###
+GET https://{{hostname}}:{{port}}/Start/Index
+###
+GET https://{{hostname}}:{{port}}/Start/One
+###
+GET https://{{hostname}}:{{port}}/Start/Two
+###
+GET https://{{hostname}}:{{port}}/Start/Three
+###
+GET https://www.belstu.by
+###
+GET https://{{hostname}}:{{port}}/Start/Four
+
+###
+POST https://{{hostname}}:{{port}}/Start/Index
+###
+POST https://{{hostname}}:{{port}}/Start/One
+###
+POST https://{{hostname}}:{{port}}/Start/Two
+###
+POST https://{{hostname}}:{{port}}/Start/Three

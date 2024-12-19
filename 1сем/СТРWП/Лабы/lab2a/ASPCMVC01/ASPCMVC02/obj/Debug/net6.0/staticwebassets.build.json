@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "CN52EZBozL300rZSc073oVbHr4UP6q70kIBIkId5Vfw=",
+  "Source": "ASPCMVC02",
+  "BasePath": "_content/ASPCMVC02",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPCMVC02\\wwwroot",
+      "Source": "ASPCMVC02",
+      "ContentRoot": "C:\\Users\\User\\Downloads\\стрвп\\3\\ASPCMVC01\\ASPCMVC02\\wwwroot\\",
+      "BasePath": "_content/ASPCMVC02",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Downloads\\стрвп\\3\\ASPCMVC01\\ASPCMVC02\\wwwroot\\index.html",
+      "SourceId": "ASPCMVC02",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Downloads\\стрвп\\3\\ASPCMVC01\\ASPCMVC02\\wwwroot\\",
+      "BasePath": "_content/ASPCMVC02",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "45mcr72gqn",
+      "Integrity": "6G1wmoIPDDTJ3XLHFpClOx2SLEijQgQtZtBIqZpHZZs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.45mcr72gqn.html",
+      "AssetFile": "C:\\Users\\User\\Downloads\\стрвп\\3\\ASPCMVC01\\ASPCMVC02\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6G1wmoIPDDTJ3XLHFpClOx2SLEijQgQtZtBIqZpHZZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 19:18:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "45mcr72gqn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6G1wmoIPDDTJ3XLHFpClOx2SLEijQgQtZtBIqZpHZZs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\User\\Downloads\\стрвп\\3\\ASPCMVC01\\ASPCMVC02\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6G1wmoIPDDTJ3XLHFpClOx2SLEijQgQtZtBIqZpHZZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 19:18:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6G1wmoIPDDTJ3XLHFpClOx2SLEijQgQtZtBIqZpHZZs="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "hjkHnJ6cr2UBGpl5bFoCepu1n0Gt2pSFDHi3MEWRpyc=",
+  "Source": "ASPCMVC01",
+  "BasePath": "_content/ASPCMVC01",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPCMVC01\\wwwroot",
+      "Source": "ASPCMVC01",
+      "ContentRoot": "C:\\Users\\User\\Downloads\\стрвп\\3\\ASPCMVC01\\ASPCMVC01\\wwwroot\\",
+      "BasePath": "_content/ASPCMVC01",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Downloads\\стрвп\\3\\ASPCMVC01\\ASPCMVC01\\wwwroot\\index.html",
+      "SourceId": "ASPCMVC01",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Downloads\\стрвп\\3\\ASPCMVC01\\ASPCMVC01\\wwwroot\\",
+      "BasePath": "_content/ASPCMVC01",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

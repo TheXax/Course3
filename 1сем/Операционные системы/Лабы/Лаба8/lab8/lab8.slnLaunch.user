@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "OS08_02\\OS08_02.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

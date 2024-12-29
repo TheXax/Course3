@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "OS09_03\\OS09_03.vcxproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "OS09_04\\OS09_04.vcxproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+F:\3ий курс\веб\lab4\lab2b-task2\bin\Debug\net7.0\appsettings.Development.json
+F:\3ий курс\веб\lab4\lab2b-task2\bin\Debug\net7.0\appsettings.json
+F:\3ий курс\веб\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.staticwebassets.runtime.json
+F:\3ий курс\веб\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.exe
+F:\3ий курс\веб\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.deps.json
+F:\3ий курс\веб\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.runtimeconfig.json
+F:\3ий курс\веб\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.dll
+F:\3ий курс\веб\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.pdb
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.GeneratedMSBuildEditorConfig.editorconfig
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.AssemblyInfoInputs.cache
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.AssemblyInfo.cs
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.csproj.CoreCompileInputs.cache
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.MvcApplicationPartsAssemblyInfo.cache
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.RazorAssemblyInfo.cache
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.RazorAssemblyInfo.cs
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets\msbuild.lab2b-task2.Microsoft.AspNetCore.StaticWebAssets.props
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets\msbuild.build.lab2b-task2.props
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab2b-task2.props
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab2b-task2.props
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets.pack.json
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets.build.json
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets.development.json
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\scopedcss\bundle\lab2b-task2.styles.css
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\scopedcss\projectbundle\lab2b-task2.bundle.scp.css
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.dll
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\refint\lab2b-task2.dll
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.pdb
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.genruntimeconfig.cache
+F:\3ий курс\веб\lab4\lab2b-task2\obj\Debug\net7.0\ref\lab2b-task2.dll
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\bin\Debug\net7.0\appsettings.Development.json
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\bin\Debug\net7.0\appsettings.json
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.staticwebassets.runtime.json
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.staticwebassets.endpoints.json
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.exe
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.deps.json
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.runtimeconfig.json
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.dll
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\bin\Debug\net7.0\lab2b-task2.pdb
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.AssemblyInfoInputs.cache
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.AssemblyInfo.cs
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.csproj.CoreCompileInputs.cache
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.MvcApplicationPartsAssemblyInfo.cache
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.RazorAssemblyInfo.cache
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.RazorAssemblyInfo.cs
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\scopedcss\bundle\lab2b-task2.styles.css
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\scopedcss\projectbundle\lab2b-task2.bundle.scp.css
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets.build.json
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets.development.json
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets\msbuild.lab2b-task2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets\msbuild.lab2b-task2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets\msbuild.build.lab2b-task2.props
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab2b-task2.props
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab2b-task2.props
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.dll
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\refint\lab2b-task2.dll
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.pdb
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\lab2b-task2.genruntimeconfig.cache
+C:\Лабы\СТРWП\Лабы\lab4\lab2b-task2\obj\Debug\net7.0\ref\lab2b-task2.dll

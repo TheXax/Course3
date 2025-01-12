@@ -1,0 +1,92 @@
+F:\3ий курс\веб\lab5\lab3a\bin\Debug\net7.0\appsettings.Development.json
+F:\3ий курс\веб\lab5\lab3a\bin\Debug\net7.0\appsettings.json
+F:\3ий курс\веб\lab5\lab3a\bin\Debug\net7.0\lab3a.staticwebassets.runtime.json
+F:\3ий курс\веб\lab5\lab3a\bin\Debug\net7.0\lab3a.exe
+F:\3ий курс\веб\lab5\lab3a\bin\Debug\net7.0\lab3a.deps.json
+F:\3ий курс\веб\lab5\lab3a\bin\Debug\net7.0\lab3a.runtimeconfig.json
+F:\3ий курс\веб\lab5\lab3a\bin\Debug\net7.0\lab3a.dll
+F:\3ий курс\веб\lab5\lab3a\bin\Debug\net7.0\lab3a.pdb
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\lab3a.GeneratedMSBuildEditorConfig.editorconfig
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\lab3a.AssemblyInfoInputs.cache
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\lab3a.AssemblyInfo.cs
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\lab3a.csproj.CoreCompileInputs.cache
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\lab3a.MvcApplicationPartsAssemblyInfo.cache
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\lab3a.RazorAssemblyInfo.cache
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\lab3a.RazorAssemblyInfo.cs
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.lab3a.Microsoft.AspNetCore.StaticWebAssets.props
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.build.lab3a.props
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab3a.props
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab3a.props
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\staticwebassets.pack.json
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\staticwebassets.build.json
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\staticwebassets.development.json
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\scopedcss\bundle\lab3a.styles.css
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\lab3a.dll
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\refint\lab3a.dll
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\lab3a.pdb
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\lab3a.genruntimeconfig.cache
+F:\3ий курс\веб\lab5\lab3a\obj\Debug\net7.0\ref\lab3a.dll
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\bin\Debug\net7.0\appsettings.json
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\bin\Debug\net7.0\lab3a.staticwebassets.runtime.json
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\bin\Debug\net7.0\lab3a.staticwebassets.endpoints.json
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\bin\Debug\net7.0\lab3a.exe
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\bin\Debug\net7.0\lab3a.deps.json
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\bin\Debug\net7.0\lab3a.runtimeconfig.json
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\bin\Debug\net7.0\lab3a.dll
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\bin\Debug\net7.0\lab3a.pdb
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\lab3a.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\lab3a.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\lab3a.AssemblyInfo.cs
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\lab3a.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\lab3a.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\lab3a.RazorAssemblyInfo.cache
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\lab3a.RazorAssemblyInfo.cs
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\scopedcss\bundle\lab3a.styles.css
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.lab3a.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.lab3a.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.build.lab3a.props
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab3a.props
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab3a.props
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\lab3a.dll
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\refint\lab3a.dll
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\lab3a.pdb
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\lab3a.genruntimeconfig.cache
+C:\Users\User\Downloads\Telegram Desktop\lab4-5\lab5\lab3a\obj\Debug\net7.0\ref\lab3a.dll
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\bin\Debug\net7.0\appsettings.Development.json
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\bin\Debug\net7.0\appsettings.json
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\bin\Debug\net7.0\lab3a.staticwebassets.endpoints.json
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\bin\Debug\net7.0\lab3a.staticwebassets.runtime.json
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\bin\Debug\net7.0\lab3a.exe
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\bin\Debug\net7.0\lab3a.deps.json
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\bin\Debug\net7.0\lab3a.runtimeconfig.json
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\bin\Debug\net7.0\lab3a.dll
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\bin\Debug\net7.0\lab3a.pdb
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\lab3a.GeneratedMSBuildEditorConfig.editorconfig
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\lab3a.AssemblyInfoInputs.cache
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\lab3a.AssemblyInfo.cs
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\lab3a.csproj.CoreCompileInputs.cache
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\lab3a.MvcApplicationPartsAssemblyInfo.cache
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\lab3a.RazorAssemblyInfo.cache
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\lab3a.RazorAssemblyInfo.cs
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\scopedcss\bundle\lab3a.styles.css
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\staticwebassets.build.json
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\staticwebassets.development.json
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.lab3a.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.lab3a.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.build.lab3a.props
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab3a.props
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab3a.props
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\lab3a.dll
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\refint\lab3a.dll
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\lab3a.pdb
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\lab3a.genruntimeconfig.cache
+C:\Лабы\СТРWП\Лабы\lab5\lab3a\obj\Debug\net7.0\ref\lab3a.dll

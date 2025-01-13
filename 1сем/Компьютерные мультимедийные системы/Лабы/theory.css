@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    /*max-width: 800px;*/
+    margin: auto;
+}
+h1, h2 {
+    text-align: center;
+}
+p {
+    text-align: justify; 
+    text-indent: 1.25cm; /* Отступ первой строки */
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.active {
+    display: inline;
+}
+
+.inactive {
+    display: none;
+}
+
+
+/* CSS для шапки и меню */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    width: 100%; /* Занимает всю ширину страницы */
+    left: 0; /* Обеспечивает, чтобы хедер начинался с самого левого края */
+}
+
+nav {
+    margin: 0;
+    position: relative; 
+    text-align: center; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+.burger {
+    display: none; 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/*вопросик*/
+body .QBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+    height: 6vw;
+    position: fixed;
+    color: rgba(0, 0, 0, 0.7);
+    border: 0.5vw solid rgba(0, 0, 0, 0.7);
+    border-radius: 100%;
+    font-size: 6vw;
+    font-weight: bold;
+    top: 80vh;
+    left: 89vw;
+    transition: 0.1s linear;
+  }
+  body .QBtn:hover {
+    cursor: pointer;
+    color: rgb(122, 142, 255);
+    border: 0.5vw solid rgb(122, 142, 255);
+  }
+
+
+
+
+  /*диалоговое окно*/
+  body .dialog {
+    position: fixed;
+    top: 52%;
+    transform: translateY(-50%);
+    left: 100%;
+    width: 800px;
+    height: 700px;
+    margin-left: -30px;
+    margin-top: 0px;
+    padding: 10px;
+    border: Black 2px solid; 
+    border-radius: 10px;
+    background: rgb(228, 231, 245); 
+    color: black;
+    z-index: 1500;
+    font-weight: bold;
+    font-size: 12pt;
+  }
+  body .dialog .label {
+    transform: rotate(270deg);
+    width: 430px;
+    height: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: -26%;
+    margin-top: 40%;
+    cursor: pointer;
+  }
+  body .dialog .header {
+    text-align: center;
+    margin-top: -350px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  body .dialog .history {
+    height: 580px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 2px 25px;
+    width: 95%;
+    border: 1px rgb(99, 102, 119) solid; /* Светло-серый цвет границы */
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  body .dialog input, body .dialog button {
+    margin: 2px 25px;
+    width: 95%;
+    border: 1px rgb(99, 102, 119) solid; /* Светло-серый цвет границы */
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+ 
+  body .dialog .history .question {
+    margin: 5px;
+    width: 90.4%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 40px;
+    background: rgb(164, 169, 192); /* Светло-серый цвет фона */
+    color: black;
+  }
+  body .dialog .history .answer {
+    margin: 5px;
+    width: 95%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 40px;
+    background: rgb(164, 169, 192); /* Серый цвет фона */
+    color: black;
+  }
+  body .dialog .history .answer img, body .dialog .history .answer video {
+    cursor: pointer;
+    display: block;
+    max-width: 650px;
+    margin-top: 10px;
+  }
+  body .dialog .history .answer audio {
+    margin-top: 15px;
+    display: block;
+  }
+  body .button-quest,
+  body .button-quest1 {
+    padding-top: 8px;
+  }
+
+
+/* Адаптивные стили */
+
+@media (max-width: 400px) {
+    .burger {
+        display: inline-block;
+    }
+
+    nav ul {
+        display: none; 
+        flex-direction: column; 
+        position: absolute;
+        background-color: #333; 
+        padding-right: 20px;
+        right: 0; 
+        top: 50px; 
+        width: 200px; 
+    }
+
+    nav ul li {
+        display: block; 
+        margin: 20px 0; 
+    }
+
+    .no {
+        display: none; /* Класс для скрытия меню */
+    }
+
+    .yes {
+        display: block; /* Класс для отображения меню */
+    }
+}

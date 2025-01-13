@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Структура установки</title>
+    <link rel="stylesheet" href="structure.css">
+    <script src="./ruffle-nightly-2024_09_13-web-selfhosted/ruffle.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="burger" onclick="toggleMenu()">
+                &#9776; <!-- Символ бургер-меню -->
+            </div>
+            <ul id="menu" class="no">
+                <li><a href="titul.html">Главная страница</a></li>
+                <li><a href="theory.html">Теоретические сведения</a></li>
+                <li><a href="#">Структура установки</a></li>
+                <li><a href="simulator.html">Симулятор установки</a></li>
+                <li><a href="knowlege.html">База знаний</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1>Структура установки</h1>
+    
+    <h2>Фото установки</h2>
+    <div class="image-container">
+        <img src="/images/photo2.jpg" alt="Установка 1" class="zoomable">
+        <img src="/images/photo4.jpg" alt="Установка 2" class="zoomable">
+        <img src="/images/photo5.jpg" alt="Установка 3" class="zoomable">
+    </div>
+
+    <h2>Мультимедийные компоненты</h2>
+    <object width="600" height="400" data="./Установка_карта.swf" type="application/x-shockwave-flash">
+        <param name="movie" value="./Установка_карта.swf" />
+        <param name="allowScriptAccess" value="sameDomain" />
+        <param name="pluginspage" value="https://ruffle.rs/" />
+    </object>
+
+    
+    <h2>Список основных элементов установки:</h2>
+    <img src="/images/установка.jpg" alt="Установка" class="zoomable">
+    <ol>
+        <li>Окуляр</li>
+        <li>Объектив</li>
+        <li>Подвижный столик</li>
+        <li>Ручка для горизонтального перемещения линзы вперёд-назад</li>
+        <li>Барабан осветителя</li>
+        <li>Тумблер</li>
+        <li>Указатель</li>
+        <li>Ручка для горизонтального перемещения линзы вправо-влево</li>
+        <li>Ручка для вертикального перемещения столика</li>
+        <li>Плоская пластина</li>
+    </ol>
+
+    <script src="structure.js"></script>
+    <!--<script>
+        window.addEventListener('load', function() {
+            var ruffle = window.RufflePlayer;
+            if (!ruffle) {
+                console.error("Ruffle не загружен");
+                return;
+            }
+            var player = ruffle.newest();
+            var swfUrl = "./images/Установка_карта.swf"; // Укажите правильный путь к вашему SWF-файлу
+            player.load(swfUrl);
+            player.style.width = "800px";
+            player.style.height = "600px";
+            document.body.appendChild(player);
+        });
+    </script>-->
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    /*max-width: 800px;*/
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0; 
+}
+img {
+    max-width: 30%; 
+    height: auto; 
+    margin: 0 10px;
+}
+
+video {
+    max-width: 100%; 
+    height: auto; 
+    margin: 20px 0;
+}
+
+ol {
+    padding-left: 320px; 
+}
+
+li {
+    margin: 10px 0; 
+}
+
+.zoomable {
+    float: left; /* Обтекание текста слева */
+    max-width: 200px; 
+    height: auto; 
+}
+
+/* CSS для шапки и меню */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    width: 100%; /* Занимает всю ширину страницы */
+    left: 0; /* Обеспечивает, чтобы хедер начинался с самого левого края */
+}
+
+nav {
+    margin: 0;
+    position: relative; 
+    text-align: center; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+.burger {
+    display: none; 
+    font-size: 30px;
+    cursor: pointer;
+}
+/* Адаптивные стили */
+
+@media (max-width: 400px) {
+    .burger {
+        display: inline-block;
+    }
+
+    nav ul {
+        display: none; 
+        flex-direction: column; 
+        position: absolute;
+        background-color: #333; 
+        padding-right: 20px;
+        right: 0; 
+        top: 50px; 
+        width: 200px; 
+    }
+
+    nav ul li {
+        display: block; 
+        margin: 20px 0; 
+    }
+
+    .no {
+        display: none; /* Класс для скрытия меню */
+    }
+
+    .yes {
+        display: block; /* Класс для отображения меню */
+    }
+}

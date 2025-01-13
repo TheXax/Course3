@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Симулятор установки</title>
+    <link rel="stylesheet" href="simulator.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+   var unityInstance = UnityLoader.instantiate("unityContainer", "Build/student.json", {onProgress: UnityProgress});
+    </script>
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="burger" onclick="toggleMenu()">
+                &#9776; <!-- Символ бургер-меню -->
+            </div>
+            <ul id="menu" class="no">
+                <li><a href="titul.html">Главная страница</a></li>
+                <li><a href="theory.html">Теоретические сведения</a></li>
+                <li><a href="structure.html">Структура установки</a></li>
+                <li><a href="#">Симулятор установки</a></li>
+                <li><a href="knowlege.html">База знаний</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Симулятор установки</h1>
+    <p>Здесь будет 3D-симулятор.</p>
+    <div class="webgl-content">
+        <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      </div>
+  
+    <!-- код для WebGL, например, iframe или script -->
+    <!--<div class="iframe-container">
+        <iframe src="path_to_my_unity_webgl_build/index.html" width="100%" height="600" frameborder="0"></iframe>
+    </div>-->
+
+    <script src="simulator.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Error";
+}
+
+<h2>Error</h2>
+
+<p>@ViewBag.Message</p>
+
+<a href="@Url.Action((string)ViewBag.ReturnAction, (string)ViewBag.ReturnController)">Return</a>

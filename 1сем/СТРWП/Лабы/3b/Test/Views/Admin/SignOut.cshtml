@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Sign Out";
+}
+
+<h2>Sign Out</h2>
+
+<form asp-action="SignOutP" method="post">
+    <input type="hidden" name="ReturnController" value="@ViewBag.ReturnController" />
+    <input type="hidden" name="ReturnAction" value="@ViewBag.ReturnAction" />
+    <p>Are you sure you want to sign out?</p>
+    <button type="submit">Sign Out</button>
+</form>

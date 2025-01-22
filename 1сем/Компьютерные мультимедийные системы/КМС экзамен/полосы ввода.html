@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Диалоговое окно</title>
+</head>
+<body>
+<style>
+    body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*центрирование окна*/
+.dialog-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*стили окна*/
+.dialog-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*поле ввода для вопросов*/
+#questionInput {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+</style>
+<div class="dialog-container" id="dialogContainer">
+    <div class="dialog-box">
+        <input type="text" id="questionInput" placeholder="Введите ваш вопрос">
+        <button onclick="askQuestion()">Задать вопрос</button>
+        <div id="answerOutput"></div>
+    </div>
+</div>
+
+<script>
+    function askQuestion() {
+    var questionInput = document.getElementById("questionInput"); //получаем значение
+    var answerOutput = document.getElementById("answerOutput"); //строка ответа
+
+    // Для примера, просто выводим введенный вопрос как ответ
+    var answer = "Ответ: " + questionInput.value;
+    answerOutput.innerHTML = answer;
+
+    // Опционально: очистим поле ввода после получения ответа
+    questionInput.value = "";
+}
+</script>
+</body>
+</html>

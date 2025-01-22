@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dialog Animation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end; /* Выравнивание по правому краю */
+      align-items: center;
+      height: 100vh;
+      overflow: hidden; /* добавлено для предотвращения прокрутки */
+    }
+
+    .dialog-container {
+      display: none; /*скрыто по умолчанию*/
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      animation: fadeInOut 0.5s ease-in-out; /*ease-in-out означает, что анимация начинается медленно, ускоряется в середине и замедляется к концу*/
+    }
+
+    .dialog-box {
+      background: #fff;
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      position: relative;
+      animation: slideInOut 0.5s ease-in-out;
+    }
+
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    @keyframes slideInOut {
+      from {
+        transform: translateY(-100%);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInOut {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <button onclick="toggleDialog()">Открыть диалог</button>
+  <div id="dialog-container" class="dialog-container">
+    <div id="dialog-box" class="dialog-box">
+      <span onclick="toggleDialog()" class="close-button">&times;</span>
+      <p>Это ваш диалоговый текст.</p>
+    </div>
+  </div>
+  <script>
+    function toggleDialog() {
+      var dialogContainer = document.getElementById('dialog-container'); //получение эл-та
+      dialogContainer.style.display = (dialogContainer.style.display === 'none' || dialogContainer.style.display === '') ? 'block' : 'none'; //открытие/закрытие
+    }
+  </script>
+</body>
+</html>

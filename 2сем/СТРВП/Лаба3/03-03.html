@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h2 id="inner"></h2>
+    <h3 id="totalTime"></h3>
+    <script>
+        var input = document.getElementById("inner");
+        var totalTimeElement = document.getElementById("totalTime");
+        let n = 0; 
+        const startTime = Date.now(); // Начало общего времени
+        let completedRequests = 0; // Счетчик завершенных запросов
+        const totalRequests = 21; // Общее количество запросов (0-20)
+
+        for (var k = 0; k <= 20; k++) {
+            fetch(`http://localhost:5000/fact?k=${k}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json', 
+                    'Accept': 'application/json'
+                }
+            }).then(response => response.json())
+            .then((pdata) => {
+                const elapsedTime = Date.now() - startTime; // Время с начала цикла
+                input.innerHTML += `${n++}. Результат: ${elapsedTime}-${pdata.k}/${pdata.fact}<br/>`;
+                completedRequests++;
+                checkCompletion();
+            })
+            .catch(error => {
+                const elapsedTime = Date.now() - startTime; 
+                input.innerHTML += `${n++}. Результат: ${elapsedTime}-${k}/Ошибка: ${error}<br/>`;
+                completedRequests++;
+                checkCompletion();
+            });
+        }
+        //ф-ция проверки завершённости всех запросов
+        function checkCompletion() {
+            if (completedRequests === totalRequests) {
+                const totalTime = Date.now() - startTime; // Общее время выполнения запросов
+                totalTimeElement.innerHTML = 'Общее время выполнения: ' + totalTime + ' мс';
+            }
+        }
+    </script>
+</body>
+</html>

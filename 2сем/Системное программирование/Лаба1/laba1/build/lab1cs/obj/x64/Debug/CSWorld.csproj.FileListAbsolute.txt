@@ -1,0 +1,6 @@
+C:\Лабы\Системное программирование\laba1\build\Debug\CSWorld.exe
+C:\Лабы\Системное программирование\laba1\build\Debug\CSWorld.pdb
+C:\Лабы\Системное программирование\laba1\build\lab1cs\obj\x64\Debug\CSWorld.csproj.AssemblyReference.cache
+C:\Лабы\Системное программирование\laba1\build\lab1cs\obj\x64\Debug\CSWorld.csproj.CoreCompileInputs.cache
+C:\Лабы\Системное программирование\laba1\build\lab1cs\obj\x64\Debug\CSWorld.exe
+C:\Лабы\Системное программирование\laba1\build\lab1cs\obj\x64\Debug\CSWorld.pdb

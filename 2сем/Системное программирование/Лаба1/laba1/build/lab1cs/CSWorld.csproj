@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9F9CBC76-0621-3DF6-9BEB-B203918717C9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>CSWorld</ProjectName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <ManagedAssembly>true</ManagedAssembly>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <OutputPath>C:\Лабы\Системное программирование\laba1\build\Debug\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <AssemblyName>CSWorld</AssemblyName>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Лабы\Системное программирование\laba1\build\Debug\CSWorld.exe</StartProgram>
+    <DebugType>full</DebugType>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <Optimize>false</Optimize>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <OutputPath>C:\Лабы\Системное программирование\laba1\build\Release\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <AssemblyName>CSWorld</AssemblyName>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Лабы\Системное программирование\laba1\build\Release\CSWorld.exe</StartProgram>
+    <DebugType>none</DebugType>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>queue</ErrorReport>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <OutputPath>C:\Лабы\Системное программирование\laba1\build\MinSizeRel\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <AssemblyName>CSWorld</AssemblyName>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Лабы\Системное программирование\laba1\build\MinSizeRel\CSWorld.exe</StartProgram>
+    <DebugType>none</DebugType>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <OutputPath>C:\Лабы\Системное программирование\laba1\build\RelWithDebInfo\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <AssemblyName>CSWorld</AssemblyName>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Лабы\Системное программирование\laba1\build\RelWithDebInfo\CSWorld.exe</StartProgram>
+    <DebugType>full</DebugType>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.CSharp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.CSharp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemGroup>
+    <None Include="C:\Лабы\Системное программирование\laba1\lab1cs\CMakeLists.txt">
+      <Link>CMakeLists.txt</Link>
+    </None>
+  </ItemGroup>
+  <Target Condition="'$(Configuration)' == 'Debug'"
+    Name="CustomCommand_Debug_f580a9420e9f7b13951c00a89d4bf12f"
+    Inputs="C:/Лабы/Системное программирование/laba1/lab1cs/CMakeLists.txt"
+    Outputs="C:\Лабы\Системное программирование\laba1\build\lab1cs\CMakeFiles\generate.stamp"
+    BeforeTargets="CoreCompile"
+    DependsOnTargets="PrepareForBuild">
+    <Exec Command="echo Building Custom Rule C:/Лабы/Системное программирование/laba1/lab1cs/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; &quot;-SC:/Лабы/Системное программирование/laba1&quot; &quot;-BC:/Лабы/Системное программирование/laba1/build&quot; --check-stamp-file &quot;C:/Лабы/Системное программирование/laba1/build/lab1cs/CMakeFiles/generate.stamp&quot;&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
+  </Target>
+  <Target Condition="'$(Configuration)' == 'Release'"
+    Name="CustomCommand_Release_f580a9420e9f7b13951c00a89d4bf12f"
+    Inputs="C:/Лабы/Системное программирование/laba1/lab1cs/CMakeLists.txt"
+    Outputs="C:\Лабы\Системное программирование\laba1\build\lab1cs\CMakeFiles\generate.stamp"
+    BeforeTargets="CoreCompile"
+    DependsOnTargets="PrepareForBuild">
+    <Exec Command="echo Building Custom Rule C:/Лабы/Системное программирование/laba1/lab1cs/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; &quot;-SC:/Лабы/Системное программирование/laba1&quot; &quot;-BC:/Лабы/Системное программирование/laba1/build&quot; --check-stamp-file &quot;C:/Лабы/Системное программирование/laba1/build/lab1cs/CMakeFiles/generate.stamp&quot;&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
+  </Target>
+  <Target Condition="'$(Configuration)' == 'MinSizeRel'"
+    Name="CustomCommand_MinSizeRel_f580a9420e9f7b13951c00a89d4bf12f"
+    Inputs="C:/Лабы/Системное программирование/laba1/lab1cs/CMakeLists.txt"
+    Outputs="C:\Лабы\Системное программирование\laba1\build\lab1cs\CMakeFiles\generate.stamp"
+    BeforeTargets="CoreCompile"
+    DependsOnTargets="PrepareForBuild">
+    <Exec Command="echo Building Custom Rule C:/Лабы/Системное программирование/laba1/lab1cs/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; &quot;-SC:/Лабы/Системное программирование/laba1&quot; &quot;-BC:/Лабы/Системное программирование/laba1/build&quot; --check-stamp-file &quot;C:/Лабы/Системное программирование/laba1/build/lab1cs/CMakeFiles/generate.stamp&quot;&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
+  </Target>
+  <Target Condition="'$(Configuration)' == 'RelWithDebInfo'"
+    Name="CustomCommand_RelWithDebInfo_f580a9420e9f7b13951c00a89d4bf12f"
+    Inputs="C:/Лабы/Системное программирование/laba1/lab1cs/CMakeLists.txt"
+    Outputs="C:\Лабы\Системное программирование\laba1\build\lab1cs\CMakeFiles\generate.stamp"
+    BeforeTargets="CoreCompile"
+    DependsOnTargets="PrepareForBuild">
+    <Exec Command="echo Building Custom Rule C:/Лабы/Системное программирование/laba1/lab1cs/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; &quot;-SC:/Лабы/Системное программирование/laba1&quot; &quot;-BC:/Лабы/Системное программирование/laba1/build&quot; --check-stamp-file &quot;C:/Лабы/Системное программирование/laba1/build/lab1cs/CMakeFiles/generate.stamp&quot;&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
+  </Target>
+  <ItemGroup>
+    <Compile Include="C:\Лабы\Системное программирование\laba1\lab1cs\src\lab1cs.cs">
+      <Link>src\lab1cs.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Лабы\Системное программирование\laba1\build\ZERO_CHECK.vcxproj">
+      <Project>{D5774457-E881-3666-85AB-8DF9BE98EE8B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'MinSizeRel'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'RelWithDebInfo'">
+  </PropertyGroup>
+  <PropertyGroup>
+    <BuildDependsOn>
+      CustomCommand_Debug_f580a9420e9f7b13951c00a89d4bf12f;
+      CustomCommand_MinSizeRel_f580a9420e9f7b13951c00a89d4bf12f;
+      CustomCommand_RelWithDebInfo_f580a9420e9f7b13951c00a89d4bf12f;
+      CustomCommand_Release_f580a9420e9f7b13951c00a89d4bf12f;
+      $(BuildDependsOn)
+</BuildDependsOn>
+  </PropertyGroup>
+</Project>

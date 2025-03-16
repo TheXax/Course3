@@ -1,0 +1,6 @@
+C:/Лабы/Системное программирование/laba1/build/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/Системное программирование/laba1/build/CMakeFiles/ZERO_CHECK.dir
+C:/Лабы/Системное программирование/laba1/build/lab1c/CMakeFiles/CWorld.dir
+C:/Лабы/Системное программирование/laba1/build/lab1c/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/Системное программирование/laba1/build/lab1cs/CMakeFiles/CSWorld.dir
+C:/Лабы/Системное программирование/laba1/build/lab1cs/CMakeFiles/ALL_BUILD.dir

@@ -1,0 +1,6 @@
+C:\Лабы\Системное программирование\laba1\build\CMakeFiles\3.31.5\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.AssemblyReference.cache
+C:\Лабы\Системное программирование\laba1\build\CMakeFiles\3.31.5\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.CoreCompileInputs.cache
+C:\Лабы\Системное программирование\laba1\build\CMakeFiles\3.31.5\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.exe
+C:\Лабы\Системное программирование\laba1\build\CMakeFiles\3.31.5\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.pdb
+C:\Лабы\Системное программирование\laba1\build\CMakeFiles\3.31.5\CompilerIdCSharp\CompilerIdCSharp.exe
+C:\Лабы\Системное программирование\laba1\build\CMakeFiles\3.31.5\CompilerIdCSharp\CompilerIdCSharp.pdb

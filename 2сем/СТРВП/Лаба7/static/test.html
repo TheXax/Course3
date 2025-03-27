@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>Тестовый текст</p>
+    <img src="./img/some.png" alt="pic">
+    <a href="./doc/document.docx">документ</a>
+    <video src="./video/video_2025-03-12_23-05-00.mp4" controls></video>
+    <input type="button" onclick="GetJson()" value="json">
+    <div id="forJson"></div>
+    <input type="button" onclick="GetXML()" value="XML">
+    <div id="forXML"></div>
+</body>
+<script src="./js/script.js"></script>
+<script>
+    function GetJson(){
+        fetch("/json/data.json", {
+        method: 'GET'})
+        .then(response => {
+            return response.json();
+        })
+        .then((pdata) => {
+            console.log(pdata);
+            forJson.innerHTML = '';
+            pdata.forEach(el => {
+                forJson.innerHTML += (el.id + '. ' + el.name + '</br/>');
+            });
+        })
+    }
+    function GetXML(){
+        fetch("/xml/data.xml", {
+        method: 'GET'})
+        .then(response => response.text())
+        .then(data => forXML.innerHTML += data);
+    }
+</script>
+</html>

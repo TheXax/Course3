@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p, img, a, video, input {
+    display: block;
+}
+
+img {
+    width: 200px;  /* Ширина 300 пикселей */
+    height: 200px; /* Высота 200 пикселей */
+}

@@ -1,0 +1,8 @@
+{
+  "name": "m0603_nika_s",
+  "version": "1.0.0",
+  "dependencies": {
+    "nodemailer": "^6.10.0",
+    "sendmail": "^1.6.1"
+  }
+}

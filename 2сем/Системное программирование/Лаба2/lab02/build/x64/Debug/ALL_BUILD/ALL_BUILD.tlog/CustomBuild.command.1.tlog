@@ -1,0 +1,10 @@
+^C:\ЛАБЫ\СИСТЕМНОЕ ПРОГРАММИРОВАНИЕ\LAB02\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Лабы/Системное программирование/lab02" "-BC:/Лабы/Системное программирование/lab02/build" --check-stamp-file "C:/Лабы/Системное программирование/lab02/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

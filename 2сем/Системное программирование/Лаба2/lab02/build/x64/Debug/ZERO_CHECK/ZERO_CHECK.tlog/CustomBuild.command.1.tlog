@@ -1,0 +1,10 @@
+^C:\ЛАБЫ\СИСТЕМНОЕ ПРОГРАММИРОВАНИЕ\LAB02\BUILD\CMAKEFILES\4321ABCCB9F8C87544A20DE8A97FC420\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Лабы/Системное программирование/lab02" "-BC:/Лабы/Системное программирование/lab02/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Лабы/Системное программирование/lab02/build/Lab02.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,9 @@
+C:/Лабы/Системное программирование/lab02/build/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/Системное программирование/lab02/build/CMakeFiles/ZERO_CHECK.dir
+C:/Лабы/Системное программирование/lab02/build/Lab-02a/CMakeFiles/Lab-02a.dir
+C:/Лабы/Системное программирование/lab02/build/Lab-02a/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/Системное программирование/lab02/build/Lab-02b/CMakeFiles/Lab-02b.dir
+C:/Лабы/Системное программирование/lab02/build/Lab-02b/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/Системное программирование/lab02/build/Lab-02c/CMakeFiles/Lab-02c-writer.dir
+C:/Лабы/Системное программирование/lab02/build/Lab-02c/CMakeFiles/Lab-02c-reader.dir
+C:/Лабы/Системное программирование/lab02/build/Lab-02c/CMakeFiles/ALL_BUILD.dir

@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.20)
+project(Lab02)
+
+if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
+    message("Running on Windows!")
+    add_subdirectory(Lab-02a)
+    add_subdirectory(Lab-02b)
+    add_subdirectory(Lab-02c)
+elseif(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+    message("Running on Linux!")
+    add_subdirectory(Lab-02d)
+    add_subdirectory(Lab-02e)
+endif()

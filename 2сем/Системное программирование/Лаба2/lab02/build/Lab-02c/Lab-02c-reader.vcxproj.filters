@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Лабы\Системное программирование\lab02\Lab-02c\src\reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Лабы\Системное программирование\lab02\Lab-02c\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2E89764A-CB27-31CC-B7ED-F88CAA06CDD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

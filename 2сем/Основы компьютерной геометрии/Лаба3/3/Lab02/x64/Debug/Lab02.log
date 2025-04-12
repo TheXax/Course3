@@ -1,0 +1,48 @@
+﻿Сборка начата 12.04.2025 10:45:53.
+Уровень детализации журнала: Normal.     1>Проект "C:\Лабы\Основы компьютерной геометрии\3\Lab02\Lab02.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Lab02.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\Lab3.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\Lab3.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt LibChart2D.cpp
+         LibChart2D.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>C:\Лабы\Основы компьютерной геометрии\3\Lab02\LibChart2D.cpp(214,41): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>C:\Лабы\Основы компьютерной геометрии\3\Lab02\LibChart2D.cpp(214,31): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>C:\Лабы\Основы компьютерной геометрии\3\Lab02\LibChart2D.cpp(214,23): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>C:\Лабы\Основы компьютерной геометрии\3\Lab02\LibChart2D.cpp(214,14): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Лабы\Основы компьютерной геометрии\3\x64\Debug\Lab3.exe" /INCREMENTAL /ILK:"x64\Debug\Lab3.ilk" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\Include\Manifest\dpiaware.manifest" /DEBUG:FULL /PDB:"C:\Лабы\Основы компьютерной геометрии\3\x64\Debug\Lab3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Лабы\Основы компьютерной геометрии\3\x64\Debug\Lab3.lib" /MACHINE:X64 x64\Debug\lab2.res
+         x64\Debug\ChildView.obj
+         x64\Debug\CMatrix.obj
+         x64\Debug\Lab3.obj
+         x64\Debug\LibChart2D.obj
+         x64\Debug\MainFrm.obj
+         Lab02.vcxproj -> C:\Лабы\Основы компьютерной геометрии\3\x64\Debug\Lab3.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Lab3.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Lab3.tlog\Lab3.lastbuildstate".
+     1>Сборка проекта "C:\Лабы\Основы компьютерной геометрии\3\Lab02\Lab02.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Лабы\Основы компьютерной геометрии\3\Lab02\Lab02.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Lab02.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "C:\Лабы\Основы компьютерной геометрии\3\Lab02\Lab02.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Лабы\Основы компьютерной геометрии\3\Lab02\LibChart2D.cpp(214,41): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+         C:\Лабы\Основы компьютерной геометрии\3\Lab02\LibChart2D.cpp(214,31): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+         C:\Лабы\Основы компьютерной геометрии\3\Lab02\LibChart2D.cpp(214,23): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+         C:\Лабы\Основы компьютерной геометрии\3\Lab02\LibChart2D.cpp(214,14): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 5
+    Ошибок: 0
+
+Прошло времени 00:00:03.04

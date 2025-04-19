@@ -1,0 +1,30 @@
+C:\Users\RoBiN\Desktop\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.dll
+C:\Users\RoBiN\Desktop\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
+C:\Users\RoBiN\Desktop\ClassLibrary3\ClassLibrary3\bin\Debug\Microsoft.SqlServer.Server.dll
+C:\Users\RoBiN\Desktop\ClassLibrary3\ClassLibrary3\bin\Debug\Microsoft.SqlServer.Server.pdb
+C:\Users\RoBiN\Desktop\ClassLibrary3\ClassLibrary3\bin\Debug\Microsoft.SqlServer.Server.xml
+C:\Users\RoBiN\Desktop\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.AssemblyReference.cache
+C:\Users\RoBiN\Desktop\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.CoreCompileInputs.cache
+C:\Users\RoBiN\Desktop\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLib.E736BE7A.Up2Date
+C:\Users\RoBiN\Desktop\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.dll
+C:\Users\RoBiN\Desktop\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.pdb
+C:\Users\User\Downloads\Telegram Desktop\ClassLibrary3\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.dll
+C:\Users\User\Downloads\Telegram Desktop\ClassLibrary3\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
+C:\Users\User\Downloads\Telegram Desktop\ClassLibrary3\ClassLibrary3\ClassLibrary3\bin\Debug\Microsoft.SqlServer.Server.dll
+C:\Users\User\Downloads\Telegram Desktop\ClassLibrary3\ClassLibrary3\ClassLibrary3\bin\Debug\Microsoft.SqlServer.Server.pdb
+C:\Users\User\Downloads\Telegram Desktop\ClassLibrary3\ClassLibrary3\ClassLibrary3\bin\Debug\Microsoft.SqlServer.Server.xml
+C:\Users\User\Downloads\Telegram Desktop\ClassLibrary3\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Telegram Desktop\ClassLibrary3\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Telegram Desktop\ClassLibrary3\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLib.E736BE7A.Up2Date
+C:\Users\User\Downloads\Telegram Desktop\ClassLibrary3\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.dll
+C:\Users\User\Downloads\Telegram Desktop\ClassLibrary3\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.pdb
+C:\Лабы\Методы сбора, храниения, обработки и анализа данных\Лаба10\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.dll
+C:\Лабы\Методы сбора, храниения, обработки и анализа данных\Лаба10\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
+C:\Лабы\Методы сбора, храниения, обработки и анализа данных\Лаба10\ClassLibrary3\ClassLibrary3\bin\Debug\Microsoft.SqlServer.Server.dll
+C:\Лабы\Методы сбора, храниения, обработки и анализа данных\Лаба10\ClassLibrary3\ClassLibrary3\bin\Debug\Microsoft.SqlServer.Server.pdb
+C:\Лабы\Методы сбора, храниения, обработки и анализа данных\Лаба10\ClassLibrary3\ClassLibrary3\bin\Debug\Microsoft.SqlServer.Server.xml
+C:\Лабы\Методы сбора, храниения, обработки и анализа данных\Лаба10\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.AssemblyReference.cache
+C:\Лабы\Методы сбора, храниения, обработки и анализа данных\Лаба10\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.CoreCompileInputs.cache
+C:\Лабы\Методы сбора, храниения, обработки и анализа данных\Лаба10\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLib.E736BE7A.Up2Date
+C:\Лабы\Методы сбора, храниения, обработки и анализа данных\Лаба10\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.dll
+C:\Лабы\Методы сбора, храниения, обработки и анализа данных\Лаба10\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.pdb

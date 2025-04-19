@@ -1,0 +1,5 @@
+Software: Microsoft Office 2021, Date: 2022-01-15, Price: 149.99
+Software: Adobe Photoshop 2022, Date: 2022-05-20, Price: 200.99
+Software: JetBrains IntelliJ IDEA, Date: 2023-03-10, Price: 149.05
+Software: AutoCAD 2023, Date: 2023-07-01, Price: 100.99
+Software: Zoom Video Communications, Date: 2022-11-05, Price: 49.99

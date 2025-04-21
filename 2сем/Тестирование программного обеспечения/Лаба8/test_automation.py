@@ -16,8 +16,8 @@ class TestDoramaClub(unittest.TestCase):
 
     def test_login_and_find_dorama(self):
         # Авторизация
-        self.driver.find_element(By.NAME, 'log').send_keys('Melkaya05')
-        self.driver.find_element(By.NAME, 'pwd').send_keys('05052001', Keys.RETURN)
+        self.driver.find_element(By.NAME, 'log').send_keys('MyName')
+        self.driver.find_element(By.NAME, 'pwd').send_keys('password', Keys.RETURN)
         print("Выполнен вход в систему.")
 
         # Явное ожидание для открытия главной страницы

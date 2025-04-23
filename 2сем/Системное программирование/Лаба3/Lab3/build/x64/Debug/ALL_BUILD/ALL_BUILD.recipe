@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Лабы\СП\Лаба3\Lab3\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Лабы\СП\Лаба3\Lab3\build\Debug\Debug\Lab-03a.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Лабы\СП\Лаба3\Lab3\build\Debug\Debug\SVADLib.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Лабы\СП\Лаба3\Lab3\build\Debug\Debug\SVADLib++.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Лабы\СП\Лаба3\Lab3\build\Debug\Debug\Lab03bExplicit.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Лабы\СП\Лаба3\Lab3\build\Debug\Debug\Lab03bImplicit.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Лабы\СП\Лаба3\Lab3\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

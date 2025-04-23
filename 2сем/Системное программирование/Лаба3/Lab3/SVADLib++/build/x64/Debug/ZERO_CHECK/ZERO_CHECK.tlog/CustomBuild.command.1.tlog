@@ -1,0 +1,10 @@
+^C:\ЛАБЫ\СП\ЛАБА3\LAB3T2\SVADLIBPP\BUILD\CMAKEFILES\8F960F309A94C69A6FC216275ADE9DBE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Лабы/СП/Лаба3/Lab3T2/SVADLIBPP -BC:/Лабы/СП/Лаба3/Lab3T2/SVADLIBPP/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Лабы/СП/Лаба3/Lab3T2/SVADLIBPP/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

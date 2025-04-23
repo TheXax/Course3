@@ -1,0 +1,5 @@
+LIBRARY SVADLib++
+EXPORTS
+    SearchRecursive = binarySearchRecursive @1
+    SearchIterative = binarySearchIterative @2
+    test_array @3

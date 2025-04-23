@@ -1,0 +1,3 @@
+C:/Лабы/СП/Лаба3/Lab3T2/SVADLib/build/CMakeFiles/SVADLib.dir
+C:/Лабы/СП/Лаба3/Lab3T2/SVADLib/build/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/СП/Лаба3/Lab3T2/SVADLib/build/CMakeFiles/ZERO_CHECK.dir

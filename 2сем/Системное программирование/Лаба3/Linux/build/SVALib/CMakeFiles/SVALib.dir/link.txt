@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSVALib.a CMakeFiles/SVALib.dir/binary_search.c.o
+/usr/bin/ranlib libSVALib.a

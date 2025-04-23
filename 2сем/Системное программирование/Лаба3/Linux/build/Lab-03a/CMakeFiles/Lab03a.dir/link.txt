@@ -1,0 +1,1 @@
+/usr/bin/clang CMakeFiles/Lab03a.dir/main.c.o -o Lab03a  ../SVALib/libSVALib.a 

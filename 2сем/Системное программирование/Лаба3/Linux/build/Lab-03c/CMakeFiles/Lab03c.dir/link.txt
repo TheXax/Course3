@@ -1,0 +1,1 @@
+/usr/bin/clang CMakeFiles/Lab03c.dir/main.c.o -o Lab03c  -Wl,-rpath,/home/vboxuser/sp/build/LibSVAd ../LibSVAd/libLibSVAd.so -ldl 

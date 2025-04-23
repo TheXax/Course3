@@ -1,0 +1,1 @@
+/usr/bin/clang -fPIC -shared -Wl,-soname,libLibSVAd.so -o libLibSVAd.so CMakeFiles/LibSVAd.dir/binary_search.c.o 

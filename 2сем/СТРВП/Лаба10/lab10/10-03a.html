@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Клиент 10-03a</title>
+</head>
+<body>
+  <h1>Клиент WebSocket 10-03a</h1>
+  <input id="msg" type="text" placeholder="Введите сообщение" />
+  <button onclick="sendMessage()">Отправить</button>
+  <div id="chat" style="margin-top: 20px;"></div>
+
+  <script>
+    const ws = new WebSocket("ws://localhost:5000");
+
+    ws.onmessage = (event) => {
+      const div = document.getElementById("chat");
+      div.innerHTML += `<div> - ${event.data}</div>`;
+    };
+
+    function sendMessage() {
+      const input = document.getElementById("msg");
+      const text = input.value;
+      if (text.trim()) {
+        ws.send(text);
+        input.value = "";
+      }
+    }
+  </script>
+</body>
+</html>

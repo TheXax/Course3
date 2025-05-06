@@ -1,0 +1,41 @@
+﻿Сборка начата 06.05.2025 09:36:54.
+Уровень детализации журнала: Normal.     1>Проект "C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\RIS_2_server_2.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\RIS_2_server_2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\RIS_2_server_2.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt server2.cpp
+         server2.cpp
+     1>C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(106,17): warning C4311: приведение типов: усечение указателя из "LPVOID" в "int"
+     1>C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(106,17): warning C4302: приведение типов: усечение из "LPVOID" к "int"
+     1>C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(121,43): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(133,47): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(140,48): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(234,64): warning C4312: приведение типов: преобразование из "int" в "void *" большего размера
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server\x64\Debug\RIS_2_server_2.exe" /INCREMENTAL /ILK:"x64\Debug\RIS_2_server_2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server\x64\Debug\RIS_2_server_2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server\x64\Debug\RIS_2_server_2.lib" /MACHINE:X64 x64\Debug\server2.obj
+         RIS_2_server_2.vcxproj -> C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server\x64\Debug\RIS_2_server_2.exe
+       TlogCleanup:
+         Следующие элементы будут удалены из tlogs, так как они были удалены из проекта или сборки: C:\Users\User\Downloads\Лаба2\RIS_2_server_2\server2.cpp.
+       FinalizeBuildStatus:
+         Файл "x64\Debug\RIS_2_server_2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\RIS_2_server_2.tlog\RIS_2_server_2.lastbuildstate".
+     1>Сборка проекта "C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\RIS_2_server_2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\RIS_2_server_2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(106,17): warning C4311: приведение типов: усечение указателя из "LPVOID" в "int"
+         C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(106,17): warning C4302: приведение типов: усечение из "LPVOID" к "int"
+         C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(121,43): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(133,47): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(140,48): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\Лабы\Распределённые информационные системы\Лаба2\lab2\RIS_2_server_2\server2.cpp(234,64): warning C4312: приведение типов: преобразование из "int" в "void *" большего размера
+
+    Предупреждений: 6
+    Ошибок: 0
+
+Прошло времени 00:00:03.48

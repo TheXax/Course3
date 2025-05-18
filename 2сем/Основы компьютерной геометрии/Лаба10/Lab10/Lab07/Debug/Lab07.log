@@ -1,0 +1,62 @@
+﻿Сборка начата 17.05.2025 11:15:21.
+Уровень детализации журнала: Normal.     1>Проект "C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\Lab07.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Debug\".
+         Создание каталога "Debug\Lab07.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\Lab07.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Lab07.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt CMatrix.cpp main.cpp
+         CMatrix.cpp
+         main.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(152,20): warning C4018: <: несоответствие типов со знаком и без знака
+         (компиляция исходного файла "main.cpp")
+         
+     1>C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(155,21): warning C4018: <: несоответствие типов со знаком и без знака
+         (компиляция исходного файла "main.cpp")
+         
+     1>C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(215,20): warning C4018: <: несоответствие типов со знаком и без знака
+         (компиляция исходного файла "main.cpp")
+         
+     1>C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(218,21): warning C4018: <: несоответствие типов со знаком и без знака
+         (компиляция исходного файла "main.cpp")
+         
+     1>C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(245,20): warning C4018: <: несоответствие типов со знаком и без знака
+         (компиляция исходного файла "main.cpp")
+         
+     1>C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(248,21): warning C4018: <: несоответствие типов со знаком и без знака
+         (компиляция исходного файла "main.cpp")
+         
+         Создание кода...
+     1>C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(198,1): warning C4715: CPlot3D::GetNumberRegion: значение возвращается не при всех путях выполнения
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Debug\Lab07.res" Lab07.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Debug\Lab07.exe" /INCREMENTAL /ILK:"Debug\Lab07.ilk" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Debug\Lab07.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Debug\Lab07.lib" /MACHINE:X86 Debug\Lab07.res
+         Debug\CMatrix.obj
+         Debug\main.obj
+         Lab07.vcxproj -> C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Debug\Lab07.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Lab07.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab07.tlog\Lab07.lastbuildstate".
+     1>Сборка проекта "C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\Lab07.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\Lab07.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(152,20): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(155,21): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(215,20): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(218,21): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(245,20): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(248,21): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Лабы\Основы компьютерной геометрии\Лаба10\Lab10\Lab07\LibSurface.h(198,1): warning C4715: CPlot3D::GetNumberRegion: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 7
+    Ошибок: 0
+
+Прошло времени 00:00:04.64

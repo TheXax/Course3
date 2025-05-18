@@ -1,0 +1,48 @@
+﻿Сборка начата 17.05.2025 09:47:40.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\Lab01.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\Lab06.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\Lab06.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt LibSurface.cpp
+         LibSurface.cpp
+     1>C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\LibSurface.cpp(247,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         (компиляция исходного файла "/LibSurface.cpp")
+         
+     1>C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\LibSurface.cpp(248,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         (компиляция исходного файла "/LibSurface.cpp")
+         
+     1>C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\LibSurface.cpp(17,1): warning C4715: Function3: значение возвращается не при всех путях выполнения
+     1>C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\LibSurface.cpp(167,1): warning C4715: CPlot3D::GetNumberRegion: значение возвращается не при всех путях выполнения
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Downloads\Telegram Desktop\OKG8\x64\Debug\Lab06.exe" /INCREMENTAL /ILK:"x64\Debug\Lab06.ilk" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\Include\Manifest\dpiaware.manifest" /DEBUG:FULL /PDB:"C:\Users\User\Downloads\Telegram Desktop\OKG8\x64\Debug\Lab06.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Downloads\Telegram Desktop\OKG8\x64\Debug\Lab06.lib" /MACHINE:X64 x64\Debug\Lab01.res
+         x64\Debug\ChildView.obj
+         x64\Debug\CMatrix.obj
+         x64\Debug\Lab06.obj
+         x64\Debug\LibGraph.obj
+         x64\Debug\LibSurface.obj
+         x64\Debug\MainFrm.obj
+         x64\Debug\stdafx.obj
+         Lab01.vcxproj -> C:\Users\User\Downloads\Telegram Desktop\OKG8\x64\Debug\Lab06.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Lab06.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Lab06.tlog\Lab06.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\Lab01.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\Lab01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\LibSurface.cpp(247,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\LibSurface.cpp(248,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\LibSurface.cpp(17,1): warning C4715: Function3: значение возвращается не при всех путях выполнения
+         C:\Users\User\Downloads\Telegram Desktop\OKG8\Lab01\LibSurface.cpp(167,1): warning C4715: CPlot3D::GetNumberRegion: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:00.62

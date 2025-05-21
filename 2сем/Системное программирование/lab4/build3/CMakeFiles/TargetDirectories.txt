@@ -1,0 +1,10 @@
+C:/Лабы/Системное программирование/lab4/build3/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/Системное программирование/lab4/build3/CMakeFiles/ZERO_CHECK.dir
+C:/Лабы/Системное программирование/lab4/build3/ComSampleProxy/CMakeFiles/ComSampleProxy.dir
+C:/Лабы/Системное программирование/lab4/build3/ComSampleProxy/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/Системное программирование/lab4/build3/ComSampleServer/CMakeFiles/ComSampleServer.dir
+C:/Лабы/Системное программирование/lab4/build3/ComSampleServer/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/Системное программирование/lab4/build3/ComSampleService/CMakeFiles/ComSampleService.dir
+C:/Лабы/Системное программирование/lab4/build3/ComSampleService/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/Системное программирование/lab4/build3/ComSampleClient/CMakeFiles/Client.dir
+C:/Лабы/Системное программирование/lab4/build3/ComSampleClient/CMakeFiles/ALL_BUILD.dir

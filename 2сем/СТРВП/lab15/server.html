@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа 26 - WASM с сервера</title>
+</head>
+<body>
+    <h1>Тестирование WASM-функций с сервера</h1>
+    <input type="number" id="x" placeholder="Введите x">
+    <input type="number" id="y" placeholder="Введите y">
+    <button onclick="runFunctions()">Выполнить</button>
+    <p>Сумма: <span id="sumResult"></span></p>
+    <p>Умножение: <span id="mulResult"></span></p>
+    <p>Вычитание: <span id="subResult"></span></p>
+
+    <script>
+        async function runFunctions() {
+            const x = parseInt(document.getElementById('x').value);
+            const y = parseInt(document.getElementById('y').value);
+
+            // Загрузка WASM через GET
+            const response = await fetch('/functions.wasm');
+            const wasmBuffer = await response.arrayBuffer();
+            const wasmModule = await WebAssembly.instantiate(wasmBuffer, {});
+
+            // Вызов функций
+            const sumResult = wasmModule.instance.exports.sum(x, y);
+            const mulResult = wasmModule.instance.exports.mul(x, y);
+            const subResult = wasmModule.instance.exports.sub(x, y);
+
+            // Вывод результатов
+            document.getElementById('sumResult').textContent = sumResult;
+            document.getElementById('mulResult').textContent = mulResult;
+            document.getElementById('subResult').textContent = subResult;
+        }
+    </script>
+</body>
+</html>

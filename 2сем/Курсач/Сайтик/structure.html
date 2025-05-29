@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Структура установки</title>
+    <script src="/ruffle-nightly-2024_09_13-web-selfhosted/ruffle.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(./images/back.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        header {
+            background-color: rgb(3, 31, 61);
+            color: white;
+            padding: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .burger {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+            position: absolute;
+            right: 60px;
+        }
+        nav {
+            background-color: rgb(12, 44, 79);
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: rgb(12, 44, 79);
+            width: 100%;
+            z-index: 1;
+        }
+        .dropdown a {
+            display: block;
+            padding: 1em;
+            color: white;
+            text-decoration: none;
+        }
+        .dropdown a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+        }
+        .image-section {
+            flex: 1;
+            min-width: 300px;
+        }
+        .elements-section {
+            flex: 1;
+            min-width: 300px;
+        }
+        img, video, object {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .burger {
+                display: block;
+            }
+            header h1 {
+                font-size: 5vw;
+            }
+            nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Структура установки</h1>
+        <div class="burger" onclick="toggleMenu()">☰</div>
+    </header>
+    <nav id="navbar">
+        <a href="titul.html">Титульная страница</a>
+        <a href="menu.html">Меню</a>
+        <a href="theory.html">Теоретические сведения</a>
+        <a href="guide.html">Руководство пользователя</a>
+        <a href="knowledge.html">База знаний</a>
+    </nav>
+    <div class="dropdown" id="dropdown-menu">
+        <a href="titul.html">Титульная страница</a>
+        <a href="menu.html">Меню</a>
+        <a href="theory.html">Теоретические сведения</a>
+        <a href="guide.html">Руководство пользователя</a>
+        <a href="knowledge.html">База знаний</a>
+    </div>
+    <main>
+        <div class="image-section">
+            <h3>Карта установки (Adobe Animate)</h3>
+            <object width="350" height="500" data="/Установка_карта.swf" type="application/x-shockwave-flash">
+                <param name="movie" value="/Установка_карта.swf" />
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="pluginspage" value="https://ruffle.rs/" />
+            </object>
+        </div>
+        <div class="elements-section">
+            <h2>Основные элементы автомата</h2>
+            <ul>
+                <li>Клешня: механизм для захвата игрушек.</li>
+                <li>Джойстик: управление движением клешни.</li>
+                <li>Кнопка: активация захвата.</li>
+                <li>Монетоприёмник: устройство для оплаты.</li>
+                <li>Лоток выдачи: место, куда падает игрушка.</li>
+                <li>Корпус: внешняя оболочка автомата.</li>
+            </ul>
+            <img src="/images/photo1.jpg" alt="Автомат с игрушками">
+        </div>
+        <h2>Визуализация автомата</h2>
+        <video controls>
+            <source src="/images/video.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+    </main>
+    <script>
+        function toggleMenu() {
+            const dropdown = document.getElementById('dropdown-menu');
+            dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>

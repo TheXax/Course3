@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>База знаний</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url(./images/back.jpg);
+            background-size: cover;
+        }
+
+        header {
+            background-color: rgb(3, 31, 61);
+            color: white;
+            padding: 10px 20px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .burger {
+            display: none; 
+            font-size: 30px;
+            cursor: pointer;
+            position: absolute;
+            right: 60px;
+        }
+
+        nav {
+            background-color: rgb(12, 44, 79);
+            padding: 0.5em;
+            text-align: center;
+            width: 100%;
+            border-top: 2px solid white;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 0.5em; 
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            width: 75%;
+            background-color: rgb(12, 44, 79);
+            box-sizing: border-box;
+            padding: 3vw;
+            margin: 0;
+        }
+
+        article div {
+            text-align: center;
+            padding-top: 2vh;
+        }
+
+        article div h1, article div h2 {
+            color: white;
+        }
+
+        article div h1 {
+            font-size: 3vw;
+        }
+
+        article div h2 {
+            font-size: 2vw;
+        }
+
+        .inputDiv input, .buttonDiv input {
+            font-family: Arial, sans-serif;
+            width: 50%;
+            font-size: 1.5vw;
+            padding: 0.5vw;
+            border: 3px solid white;
+            color: white;
+            background-color: rgb(12, 44, 79);
+            transition: 0.07s linear;
+        }
+
+        .inputDiv input:focus, .buttonDiv input:hover {
+            outline: none;
+            border: 3px solid white;
+            background-color: white;
+            color: black;
+        }
+
+        .buttonDiv {
+            height: 5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0; 
+        }
+
+        .buttonDiv input {
+            border-radius: 10px;
+            transition: 0.1s linear;
+        }
+
+        .answerDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .answerDiv div {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            width: 70%;
+            font-size: 1.5vw;
+            padding: 0.5vw;
+            border: 3px solid white;
+            color: white;
+            background-color: rgb(12, 44, 79);
+            transition: 0.07s linear;
+        }
+
+        .tableDiv table {
+            border-collapse: collapse;
+            border: 2px solid white;
+            width: 100%;
+        }
+
+        .tableDiv thead tr th, .tableDiv tbody tr td {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 1.5vw;
+            padding: 0.5vw; 
+            border: 2px solid white;
+            text-align: justify;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 65px;
+            background-color: rgb(12, 44, 79);
+            width: 100%;
+            z-index: 1;
+        }
+        .dropdown a {
+            display: block;
+            padding: 1em;
+            color: white;
+            text-decoration: none;
+        }
+        .dropdown a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .burger {
+                display: block;
+            }
+            nav {
+                display: none;
+            }
+            article {
+                width: 90%;
+                padding: 4vw;
+            }
+            header h1 {
+                font-size: 5vw;
+            }
+            article div h2 {
+                font-size: 3vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>База знаний</h1>
+        <div class="burger" onclick="toggleMenu()">☰</div>
+    </header>
+    <nav  id="navbar">
+        <a href="titul.html">Титульная страница</a>
+        <a href="menu.html">Меню</a>
+        <a href="theory.html">Теоретические сведения</a>
+        <a href="structure.html">Структура установки</a>
+        <a href="guide.html">Руководство пользователя</a>
+    </nav>
+    <div class="dropdown" id="dropdown-menu">
+        <a href="titul.html">Титульная страница</a>
+        <a href="menu.html">Меню</a>
+        <a href="theory.html">Теоретические сведения</a>
+        <a href="structure.html">Структура установки</a>
+        <a href="guide.html">Руководство пользователя</a>
+    </div>
+    <article>
+        <div>
+            <h1>База знаний</h1>
+            <h2>Улучши свои знания задав вопрос</h2>
+            <div class="inputDiv">
+                <input type="text" placeholder="Задай вопрос" id="question">
+            </div>
+            <div class="buttonDiv">
+                <input type="button" value="получить ответ" onclick="Know()">
+            </div>
+            <div class="answerDiv">
+                <div id="answer"></div>
+            </div>
+            <div class="tableDiv">
+                <h2>Полная база</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Вопросы</th>
+                            <th>Ответы</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Что такое автомат с игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Как работает автомат с игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Какие основные элементы включает автомат с игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Какой механизм используется для захвата игрушек?</td>
+                        </tr>
+                        <tr>
+                            <td>Какие типы оплаты принимает автомат с игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Где обычно устанавливают автоматы с игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Как управляется клешня в автомате?</td>
+                        </tr>
+                        <tr>
+                            <td>Почему клешня не удерживает игрушку до лотка выдачи?</td>
+                        </tr>
+                        <tr>
+                            <td>Как игрушка попадает в лоток выдачи?</td>
+                        </tr>
+                        <tr>
+                            <td>Из чего изготавливается корпус автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Что делает автомат с игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Как осуществляется техническое обслуживание автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Почему автомат работает медленно?</td>
+                        </tr>
+                        <tr>
+                            <td>От чего зависит вероятность успешного захвата игрушки?</td>
+                        </tr>
+                        <tr>
+                            <td>Как меняется сложность игры на разных автоматах?</td>
+                        </tr>
+                        <tr>
+                            <td>Как происходит настройка силы захвата клешни?</td>
+                        </tr>
+                        <tr>
+                            <td>Что влияет на стоимость игры на автомате?</td>
+                        </tr>
+                        <tr>
+                            <td>Какие игрушки чаще всего размещают в автоматах?</td>
+                        </tr>
+                        <tr>
+                            <td>Как обеспечивается безопасность автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Что находится внутри автомата с игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Как автоматы защищают от мошенничества?</td>
+                        </tr>
+                        <tr>
+                            <td>Какие технологии используются в современных автоматах?</td>
+                        </tr>
+                        <tr>
+                            <td>Как часто нужно пополнять запас игрушек?</td>
+                        </tr>
+                        <tr>
+                            <td>Какую роль играет освещение в автомате?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое электронный контроллер?</td>
+                        </tr>
+                        <tr>
+                            <td>Как работает монетоприёмник?</td>
+                        </tr>
+                        <tr>
+                            <td>Какие бывают автоматы с игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Где производят автоматы с игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Когда требуется замена клешни?</td>
+                        </tr>
+                        <tr>
+                            <td>Что влияет на долговечность автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Как тестируют автоматы?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое программное обеспечение автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Как обновляется программное обеспечение?</td>
+                        </tr>
+                        <tr>
+                            <td>Как автомат с игрушками регистрирует оплату игры?</td>
+                        </tr>
+                        <tr>
+                            <td>С чем связаны основные причины поломок?</td>
+                        </tr>
+                        <tr>
+                            <td>Где хранятся игрушки внутри автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Как рассчитывается рентабельность автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое датчики в автомате?</td>
+                        </tr>
+                        <tr>
+                            <td>Как обеспечивается стабильность клешни?</td>
+                        </tr>
+                        <tr>
+                            <td>Какой автомат с игрушками обеспечивает стабильность движения клешни?</td>
+                        </tr>
+                        <tr>
+                            <td>Как устраняется застревание игрушек?</td>
+                        </tr>
+                        <tr>
+                            <td>Почему некоторые автоматы имеют дисплей?</td>
+                        </tr>
+                        <tr>
+                            <td>Что отображается на дисплее автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Как влияет температура на работу автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Что обеспечивает движение клешни?</td>
+                        </tr>
+                        <tr>
+                            <td>Когда требуется калибровка автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Как проводится калибровка?</td>
+                        </tr>
+                        <tr>
+                            <td>Где устанавливаются датчики движения?</td>
+                        </tr>
+                        <tr>
+                            <td>Что обеспечивают цифровые автоматы ?</td>
+                        </tr>
+                        <tr>
+                            <td>Что включают стандарты безопасности ?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое цикл работы автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Как можно минимизировать простои автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Какие бывают клешни?</td>
+                        </tr>
+                        <tr>
+                            <td>Как выбираются игрушки для автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Что влияет на популярность автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Как рекламируются автоматы с игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Где можно узнать о новинках автоматов?</td>
+                        </tr>
+                        <tr>
+                            <td>Каковы затраты на установку автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое автомат с несколькими клешнями?</td>
+                        </tr>
+                        <tr>
+                            <td>Как обеспечивается гигиена автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Что защищает игрушки в автомате?</td>
+                        </tr>
+                        <tr>
+                            <td>Как работает бесконтактная оплата?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое автомат с бонусной игрой?</td>
+                        </tr>
+                        <tr>
+                            <td>Что включают правила эксплуатации автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Как тестируется прочность корпуса?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое система возврата монет?</td>
+                        </tr>
+                        <tr>
+                            <td>Какой размер имеет автомат?</td>
+                        </tr>
+                        <tr>
+                            <td>Как устроен лоток выдачи?</td>
+                        </tr>
+                        <tr>
+                            <td>Почему автоматы привлекают детей?</td>
+                        </tr>
+                        <tr>
+                            <td>Как можно улучшить шансы на выигрыш?</td>
+                        </tr>
+                        <tr>
+                            <td>Что влияет на сложность игры?</td>
+                        </tr>
+                        <tr>
+                            <td>Что требует электропитание?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое звуковые эффекты в автомате?</td>
+                        </tr>
+                        <tr>
+                            <td>Как настраиваются звуковые эффекты?</td>
+                        </tr>
+                        <tr>
+                            <td>Где размещаются кнопки управления?</td>
+                        </tr>
+                        <tr>
+                            <td>Как обеспечивается защита от вандализма?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое автомат с мультимедиа?</td>
+                        </tr>
+                        <tr>
+                            <td>Как ограничивается вес игрушек?</td>
+                        </tr>
+                        <tr>
+                            <td>Кто наполняет автомат игрушками?</td>
+                        </tr>
+                        <tr>
+                            <td>Как работает система подсветки?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое автомат с таймером?</td>
+                        </tr>
+                        <tr>
+                            <td>Как настраивается таймер игры?</td>
+                        </tr>
+                        <tr>
+                            <td>Какие лицензии нужны для установки?</td>
+                        </tr>
+                        <tr>
+                            <td>Как проводится аудит автомата?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое автомат с прозрачным корпусом?</td>
+                        </tr>
+                        <tr>
+                            <td>Что включают экологические аспекты автоматов?</td>
+                        </tr>
+                        <tr>
+                            <td>Как утилизируются старые автоматы?</td>
+                        </tr>
+                        <tr>
+                            <td>Что влияет на выбор места установки?</td>
+                        </tr>
+                        <tr>
+                            <td>Что включают юридические аспекты эксплуатации?</td>
+                        </tr>
+                        <tr>
+                            <td>Как автоматы адаптируются для детей?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое автомат с голосовым управлением?</td>
+                        </tr>
+                        <tr>
+                            <td>Как обеспечивается доступность для инвалидов?</td>
+                        </tr>
+                        <tr>
+                            <td>Что включают инновации в будущем?</td>
+                        </tr>
+                        <tr>
+                            <td>Как автоматы интегрируются с приложениями?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое автомат с дополненной реальностью?</td>
+                        </tr>
+                        <tr>
+                            <td>Что двигает клешню в автомате?</td>
+                        </tr>
+                        <tr>
+                            <td>Как пользователи получают бонусы?</td>
+                        </tr>
+                        <tr>
+                            <td>Что такое автомат с тематическим дизайном?</td>
+                        </tr>
+                        <tr>
+                            <td>Как создается дизайн?</td>
+                        </tr>
+                        <tr>
+                            <td>Кто играет на автоматах с игрушками?</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </article>
+    <script type="text/javascript" src="knowledge.js"></script>
+    <script>
+        function toggleMenu() {
+            const dropdown = document.getElementById('dropdown-menu');
+            dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>

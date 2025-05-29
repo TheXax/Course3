@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden; /* Предотвращение горизонтальной полосы прокрутки */
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            box-sizing: border-box; /* Убедимся, что отступы не влияют на ширину */
+            z-index: 1000; /* Заголовок над контентом */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(./images/back.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;     
+            background-attachment: fixed; /* Фон остается неподвижным при прокрутке */
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Полная высота области просмотра */
+            padding-top: 4em; /* Пространство для фиксированного заголовка */
+            padding-bottom: 4em; /* Пространство для фиксированного футера */
+            box-sizing: border-box;
+        }
+        .menu-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            padding: 2vw 4vw; /* Адаптивные отступы */
+            width: 90%; /* Гибкая ширина */
+            max-width: 600px; /* Ограничение максимальной ширины */
+            margin: 20px; /* Отступы для маленьких экранов */
+            box-sizing: border-box; /* Убедимся, что отступы не влияют на ширину */
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: clamp(1.8rem, 5vw, 2.5em); /* Адаптивный размер шрифта */
+            color: #111111;
+        }
+        a {
+            display: block; 
+            margin: 15px 0; 
+            text-decoration: none; 
+            font-size: clamp(1.2rem, 3.5vw, 1.5em); /* Адаптивный размер шрифта */
+            color: #111111;
+            transition: color 0.3s; 
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box; /* Убедимся, что отступы не влияют на ширину */
+            z-index: 1000; /* Футер над контентом */
+        }
+        @media (max-width: 600px) {
+            body {
+                padding-top: 3em; /* Уменьшение пространства для заголовка */
+                padding-bottom: 3em; /* Уменьшение пространства для футера */
+            }
+            .menu-container {
+                padding: 4vw 6vw; /* Увеличение отступов на маленьких экранах */
+                margin: 10px; /* Уменьшение отступов */
+            }
+            a {
+                margin: 10px 0; /* Уменьшение расстояния между ссылками */
+            }
+            a[style*="padding"] {
+                padding: 30px !important; /* Уменьшение padding для ссылки с inline-стилем */
+            }
+        }
+        @media (max-width: 400px) {
+            a {
+                font-size: clamp(1rem, 3vw, 1.2em); /* Меньший шрифт для ссылок */
+            }
+            a[style*="padding"] {
+                padding: 20px !important; /* Еще меньший padding для очень маленьких экранов */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="menu-container">
+        <h1>Меню</h1>
+        <a href="theory.html">Теоретические сведения</a>
+        <a href="structure.html">Структура установки</a>
+        <a href="guide.html">Руководство пользователя</a>
+        <a href="knowledge.html">База знаний</a>
+        <a href="titul.html" style="padding: 50px; text-decoration: underline;">Титульная страница</a>
+    </div>
+    <footer></footer>
+</body>
+</html>

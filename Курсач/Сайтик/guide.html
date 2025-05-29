@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Руководство по игре</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(./images/back.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        header {
+            background-color: rgb(3, 31, 61);
+            color: white;
+            padding: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .burger {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+            position: absolute;
+            right: 60px;
+        }
+        nav {
+            background-color: rgb(12, 44, 79);
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: rgb(12, 44, 79);
+            width: 100%;
+            z-index: 1;
+        }
+        .dropdown a {
+            display: block;
+            padding: 1em;
+            color: white;
+            text-decoration: none;
+        }
+        .dropdown a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        h2 {
+            color: rgb(3, 31, 61);
+            margin-bottom: 1em;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        .step {
+            margin-bottom: 1em;
+            padding: 1em;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+        }
+        .step-number {
+            font-weight: bold;
+            color: rgb(12, 44, 79);
+            margin-right: 10px;
+        }
+        .download-btn {
+            display: block;
+            background-color: rgb(12, 44, 79);
+            color: white;
+            padding: 0.8em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 1em auto;
+            text-align: center;
+            font-size: 1.1em;
+            max-width: 300px;
+        }
+        .download-btn:hover {
+            background-color: rgb(3, 31, 61);
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .burger {
+                display: block;
+            }
+            header h1 {
+                font-size: 5vw;
+            }
+            nav {
+                display: none;
+            }
+            .download-btn {
+                max-width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Руководство по игре</h1>
+        <div class="burger" onclick="toggleMenu()">☰</div>
+    </header>
+    <nav id="navbar">
+        <a href="titul.html">Титульная страница</a>
+        <a href="menu.html">Меню</a>
+        <a href="theory.html">Теоретические сведения</a>
+        <a href="structure.html">Структура установки</a>
+        <a href="knowledge.html">База знаний</a>
+    </nav>
+    <div class="dropdown" id="dropdown-menu">
+        <a href="titul.html">Титульная страница</a>
+        <a href="menu.html">Меню</a>
+        <a href="theory.html">Теоретические сведения</a>
+        <a href="structure.html">Структура установки</a>
+        <a href="knowledge.html">База знаний</a>
+    </div>
+    <main>
+        <h2>Как играть в игру с автоматом игрушек</h2>
+        <p>Эта страница поможет вам разобраться, как использовать игру с автоматом игрушек с помощью описания каждого шага и приложенных изображений.</p>
+        <div class="step">
+            <span class="step-number">Шаг 1:</span> Запустите игру
+            <p>Вам сразу представиться основной вид симулятора.</p>
+            <img src="/images/common_veiw.png" alt="Основной вид симулятора">
+        </div>
+        <div class="step">
+            <span class="step-number">Шаг 2:</span> Отображение гайда
+            <p>При необходимости польльзователь может открыть гайд в самой игре, нажав на кнопку "Гайд" в левом верхнем углу экрана.</p>
+            <img src="/images/guide.png" alt="Открытие гайда">
+        </div>
+        <div class="step">
+            <span class="step-number">Шаг 3:</span> Сбор монеток
+            <p>С помощью кноки "Монетки", перемещаемся к монетам, лежащим на тумбочке, чтобы пополнить своё количество для игры.</p>
+            <img src="/images/money.png" alt="Собираем денежки">
+        </div>
+        <div class="step">
+            <span class="step-number">Шаг 4:</span> Вставляем монетки в игровой автомат
+            <p>Для запуска игры неоходимо вставить монетку в игровой автомат. Одна монетка - одна попытка.</p>
+            <img src="/images/start.png" alt="Закидываем монетку">
+        </div>
+        <div class="step">
+            <span class="step-number">Шаг 5:</span> Начало игры
+            <p>Теперь у пользователя есть возможность в течение 25 секунд вытянуть игрушку. С помощью клавиш WASD осуществляется передвижение клешни для выбора игрушки.</p>
+            <img src="/images/wasd.png" alt="Выбираем игрушку">
+        </div>
+        <div class="step">
+            <span class="step-number">Шаг 6:</span> Ловим игрушку
+            <p>Затем, чтобы опустить клешню и словить игрушку необходимо нажать Space.</p>
+            <img src="/images/space.png" alt="Опускаем клешню">
+        </div>
+        <div class="step">
+            <span class="step-number">Шаг 7:</span> Забираем приз
+            <p>Если получилось вытянуть игрушку, и она попала в отсек для выигршей, то необходимо кликнуть по ней мышкой.</p>
+            <img src="/images/success.png" alt="Забираем игрушку">
+        </div>
+        <div class="step">
+            <span class="step-number">Шаг 8:</span> Неудачная попытка
+            <p>Если у пользователя не получилось вытянуть игрушку, стоит попробовать ещё раз. Для этого повторяем все шаги сначала🙂🙂🙂</p>
+        </div>
+        <div class="step">
+            <span class="step-number">Шаг 9:</span> Просмотр статистики
+            <p>В приложении есть таюлица, в которой сохраняются результаты 6 игр. Пользователь может просмотреть данные нажав на кнопку "Таблица".</p>
+            <img src="/images/table.png" alt="Просмотр результатов">
+        </div>
+        <a href="https://github.com/TheXax/Game_kursach" class="download-btn">Переходите, чтобы скачать игру</a>
+    </main>
+    <script>
+        function toggleMenu() {
+            const dropdown = document.getElementById('dropdown-menu');
+            dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>

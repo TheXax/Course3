@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Лабы\СП\Лаба5\lab5_last\ServiceCtl\ServiceCtl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Лабы\СП\Лаба5\lab5_last\ServiceCtl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{839478B3-92B1-3EC2-A8AB-E6C5A7FB7A92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Лабы\СП\Лаба5\lab5_last\DemoService\DemoService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Лабы\СП\Лаба5\lab5_last\DemoService\ServiceUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Лабы\СП\Лаба5\lab5_last\DemoService\ServiceUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Лабы\СП\Лаба5\lab5_last\DemoService\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BAA95344-A9DC-383A-B472-6E62C146C960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{839478B3-92B1-3EC2-A8AB-E6C5A7FB7A92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

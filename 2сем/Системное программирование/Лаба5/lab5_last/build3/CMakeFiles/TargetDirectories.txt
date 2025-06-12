@@ -1,0 +1,6 @@
+C:/Лабы/СП/Лаба5/lab5_last/build3/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/СП/Лаба5/lab5_last/build3/CMakeFiles/ZERO_CHECK.dir
+C:/Лабы/СП/Лаба5/lab5_last/build3/DemoService/CMakeFiles/DemoService.dir
+C:/Лабы/СП/Лаба5/lab5_last/build3/DemoService/CMakeFiles/ALL_BUILD.dir
+C:/Лабы/СП/Лаба5/lab5_last/build3/ServiceCtl/CMakeFiles/ServiceCtl.dir
+C:/Лабы/СП/Лаба5/lab5_last/build3/ServiceCtl/CMakeFiles/ALL_BUILD.dir

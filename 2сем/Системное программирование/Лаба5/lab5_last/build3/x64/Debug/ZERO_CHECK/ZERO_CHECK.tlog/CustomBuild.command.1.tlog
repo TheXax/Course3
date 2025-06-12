@@ -1,0 +1,10 @@
+^C:\ЛАБЫ\СП\ЛАБА5\LAB5_LAST\BUILD3\CMAKEFILES\75688DB135D7C7995AA41043FD67E6BF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Лабы/СП/Лаба5/lab5_last -BC:/Лабы/СП/Лаба5/lab5_last/build3 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Лабы/СП/Лаба5/lab5_last/build3/MyServiceProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
